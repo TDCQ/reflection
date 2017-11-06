@@ -1,0 +1,8 @@
+# 打印commit日志
+git log 
+
+# 比较两次提交的不同
+git diff commit_id_1 commit_id_2
+
+# 查看历史版本
+git checkout commit_id
