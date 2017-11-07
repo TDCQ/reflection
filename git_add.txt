@@ -1,0 +1,9 @@
+# 添加修改的文件到暂存区
+# Add file contents to the index
+# This command updates the index using the current found in the working tree, to prepare the content staged for the next commit. It typically adds the current content of existing paths as a whole, but with some options it can also be used to add content with only part of the changes made to the working tree files applied, or remove path that do not exist in the working tree anymore.
+
+The "index" holds a snapshot of the content of the working tree, and it is this snapshot that is taken as the contents of the next commit. Thus after making any change to the workiing tree, and before running the commit command, you must use the `add` command to add any new or modified files to the index.
+
+This command can be performed multiple times before a commit. It only adds the content of the specified file(s) at the time the add command is run; if you want subsequesnt changes including in the next commit, then you must run `git add` agagin to add the new content to the index.
+
+git add path_to_file

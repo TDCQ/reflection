@@ -1,0 +1,5 @@
+# 查看本地的状态
+# show the working tree status
+# displays paths that have difference between the index file and the current HEAD commit, path that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git(and are not ignored by gitignore).  the first are whta you would commit by running git commit; the secong and third are whta you could commit by running git add before running git commit.
+
+git status
