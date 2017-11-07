@@ -6,3 +6,17 @@ git diff commit_id_1 commit_id_2
 
 # 查看历史版本
 git checkout commit_id
+
+# commit message 指南
+https://gdgdocs.org/document/d/1HZ9Bo1mDKhe3JZzmFvekL5P2WHafpCaEXTymj__FUYw/pub?embedded=true  
+
+# 查看本地库状态
+git status
+
+# 比较工作目录跟暂存区内容的区别
+git diff
+# 比较暂存跟repository的区别
+git diff --staged
+# 比较repository内commit1版本与commit2版本的区别
+# git diff from_commit to_comit
+git diff commit1 commit2
